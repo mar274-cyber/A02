@@ -3,11 +3,11 @@
 **1. Install Git on Mac**
 Git is a version control system used to track and manage code changes.  
 
-1. Open **Terminal**.  
-2. Install Git using Homebrew:  
-   $ brew install git
-3. Check if it's installed by using
-   $ git --version
+   1. Open **Terminal**.  
+   2. Install Git using Homebrew:  
+      $ brew install git
+   3. Check if it's installed by using
+      $ git --version
 
 **2. Configure Git**
 
@@ -20,58 +20,58 @@ Git is a version control system used to track and manage code changes.
 **3. Create a GitHub Account**
 
   1. Go to https://github.com/join
-  2. Sign up for a free account.
-  3. Verify your email.
+  2. Sign up for a free account
+  3. Verify your email
 
 **4. Install WebStorm**
 
-  1. Download WebStorm (free for students) from: https://www.jetbrains.com/student/
-  2. Install and launch WebStorm.
+  1. Download WebStorm which is free for students from: https://www.jetbrains.com/student/
+  2. Install and launch WebStorm
 
 **5. Connect Git with WebStorm**
 
   1. Open WebStorm.
-  2. Go to Preferences → Version Control > Git.
-  3. Enter the Git path (/usr/local/bin/git).
-  4. Test to confirm WebStorm recognizes Git.
+  2. Go to Preferences -> Version Control -> Git
+  3. Enter the Git path /usr/local/bin/git
+  4. Test to confirm WebStorm recognizes Git
   
 **6. Create a Repository on GitHub**
 
-  1. Log in to GitHub.
-  2. Click the + in the top-right corner → New Repository.
-  3. Name your repository (e.g., my-first-repo).
-  4. Select Public and check Initialize with README.
-  5. Click Create Repository.
+  1. Log in to GitHub
+  2. Click the + in the top-right corner -> New Repository
+  3. Name your repository
+  4. Select Public and check Initialize with README
+  5. Click Create Repository
 
 **7. Clone a Repository into WebStorm**
 
-  1. In WebStorm, go to VCS → Get from Version Control.
-  2. Choose Git.
-  3. Paste your GitHub repository URL.
-  4. Select a local folder to save the project.
-  5. Click Clone.
+  1. In WebStorm go to VCS -> Get from Version Control
+  2. Choose Git
+  3. Paste your GitHub repository URL
+  4. Select a local folder to save the project
+  5. Click Clone
 
 **8. Create and Add Files**
 
 Inside WebStorm:
-  1. Go to File → New → HTML File or Stylesheet.
-  2. Save the file.
-  3. WebStorm will ask to “Add to Git.” Click Add.
+  1. Go to File -> New -> HTML File or Stylesheet
+  2. Save the file
+  3. WebStorm will ask to Add to Git, Click Add
 
 **9. Commit Changes**
-Committing saves changes to your local Git repository.
+Committing saves changes to your local Git repository
 
-  1. In WebStorm, press Cmd + K or go to VCS → Commit.
-  2. Write a short commit message (e.g., “Added index.html”).
-  3. Click Commit.
+  1. In WebStorm, press Cmd + K or go to VCS -> Commit
+  2. Write a short commit message, anything is fine
+  3. Click Commit
 
 **10. Push Changes to GitHub**
 
-  1. Press Cmd + Shift + K or go to VCS → Git → Push.
+  1. Press Cmd + Shift + K or go to VCS -> Git -> Push
 
-  2. Confirm and push.
+  2. Confirm and push
 
-  3. Refresh your GitHub repository page—you’ll see your files online.
+  3. Refresh your GitHub repository page and you’ll see your files online
 
 Hendela, A. H. (2019). Introduction to GitHub and WebStorm [PowerPoint Presentation]. NJIT IS117.
 
